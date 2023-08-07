@@ -1,10 +1,8 @@
-import Alignment from "../enums/alignment";
+import { Alignment } from "../enums/Alignment";
 
-interface Wizard {
+export interface Wizard {
     name: string;
     level: number;
     school: string;
     alignment: Alignment;
 }
-
-export default Wizard;
